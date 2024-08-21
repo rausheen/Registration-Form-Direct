@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="" method="post">
+        <h1 style="text-align: center;">Registration Form</h1> <br>
+        Enter Your details Below
+        <ul>
+            <li class="li1"><input type="email" placeholder="Your_email@gmail.com" name="Email id" id="Email" required></li>
+        </ul>
+        <ul>
+            <li class="li2"><input type="password" name="password" id="password" placeholder="Password" required></li>
+        </ul>
+        <b><i>!Type a complex password with 8-20 characters.</i></b>
+        <ul>
+            <li class="li3"><input type="text" name="phone number" id="number" placeholder="+20 Phone Number"></li>
+        </ul>
+        <hr />
+        <br>
+        <b><i>Enter your profession:</i></b>
+        <ul>
+            <li class="li4">
+                <input type="radio" name="radio" id="radio">Student
+                <input type="radio" name="radio" id="radio">Teacher
+                <input type="radio" name="radio" id="radio">Developer
+            </li>
+        </ul><br>
+        Choose the stage if you are (Student)
+        <select name="Student" id="Student">
+            <option value="Student">first primary</option>
+            <option value="Student">second primary</option>
+            <option value="Student">third primary</option>
+            <option value="Student">fourth primary</option>
+        </select>
+        <hr />
+        <ul>
+            <li class="li5">Enter Your Birth day
+                <input type="date" name="date" id="date">
+            </li>
+        </ul>
+        <hr />
+        <ul>
+            <li class="li6"><input type="text" name="notes" id="notes" placeholder="Any Notes"></li>
+        </ul><br>
+        <hr />
+        <button type="submit">Submit</button>
+        <input type="reset">
+    </form>
+</body>
+
+</html>
